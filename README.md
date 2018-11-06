@@ -5,10 +5,10 @@
 3. 注意`# xl = win32.gencache.ensuredispath('%s.Application' % app)`	静态调度，需要 COM Makepy utility 为有前提的静态调度，需要改为`win32.Dispatch('%s.Application' % pp)`
 4. `tk().withdraw()`在python3.6 中并不存在，需要用tk.Tk()再调用withdraw（）函数，或者`root = tk.Tk()`  `root.withdraw()`
 
-echo “增加readme.md介绍文件”
-git init 初始化git
-git add file.. 增加文件
-git commit -m "描述本次push"
-git remote add origin git。。。。 增加git origin，第一次可使用
-git push -u origin master 把增加的内容push 上去。
+echo “增加readme.md介绍文件”  
+git init 初始化git  
+git add file.. 增加文件  
+git commit -m "描述本次push"  
+git remote add origin git。。。。 增加git origin，第一次可使用  
+git push -u origin master 把增加的内容push 上去。  
 
